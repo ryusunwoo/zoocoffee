@@ -1,0 +1,82 @@
+/* sub2_1.css */
+/* 서브배너 */
+#visual {
+    background-image: url(../image/sub_banner2_1.jpg);
+    height: 330px;
+    background-position: center;
+    /* width: 1920px; */
+    background-repeat: no-repeat;
+}
+#visual p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 125px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.55);
+}
+
+
+/* lnb 영역 */
+#lnb {
+    width: 1200px;
+    margin: 0 auto;
+    /* background: #abc; */
+}
+#lnb::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+#lnb ul li a {
+    float: left;
+    width: 240px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+/*     font-weight: 500; */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    /* padding: 20px 0 20px 0; */
+}
+#lnb > ul > li > .accent {
+    background-color: #4d3f3a;
+    color: white!important;
+    /* outline: 1px solid red; */
+}
+
+
+/* breadscrumb */
+div.location > span {
+    width: 1200px;
+    margin-bottom: 50px;
+    display: inline-block;
+    text-align: right;
+    margin: 30px 0;
+    font-size: 12px;
+}
+
+
+/* 메인 */
+#main > .slider > img {
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+#main {
+    width: 1200px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    margin-bottom: 50px;
+    /* background: #ccc; */
+  }
+
+.sub_txt {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #000;
+}
+
+section {
+    text-align: center;
+}
