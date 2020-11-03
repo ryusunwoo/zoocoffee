@@ -94,7 +94,7 @@ ul.bxslider {
 .bx-wrapper .bx-prev {
   left: 15px;
   /* background: url('/image/controls.png')no-repeat 0 -32px; */
-  background: url('/image/ar3.png')no-repeat;
+  background: url('./image/ar3.png')no-repeat;
 }
 .bx-wrapper .bx-prev:hover,
 .bx-wrapper .bx-prev:focus {
@@ -103,7 +103,7 @@ ul.bxslider {
 .bx-wrapper .bx-next {
   right: 15px;
   /* background: url('/image/controls.png') no-repeat -43px -32px; */
-  background: url('/image/ar4.png');
+  background: url('/myproject/image/ar4.png');
   /* outline: 1px solid red; */
 }
 .bx-wrapper .bx-next:hover,
