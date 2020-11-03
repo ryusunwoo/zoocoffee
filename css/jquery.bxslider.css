@@ -94,7 +94,7 @@ ul.bxslider {
 .bx-wrapper .bx-prev {
   left: 15px;
   /* background: url('/image/controls.png')no-repeat 0 -32px; */
-  background: url('/image/ar3.png')no-repeat;
+  background: url('/zoocoffee/image/ar3.png')no-repeat;
 }
 .bx-wrapper .bx-prev:hover,
 .bx-wrapper .bx-prev:focus {
