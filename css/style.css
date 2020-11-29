@@ -42,6 +42,8 @@ body {
 
 #main_header img {
   width: 100%;
+  margin-top: -10px;
+  margin-left: 25px;
 }
 
 /* language */
@@ -306,10 +308,10 @@ body {
   margin-right: 20px;
 }
 .btn-left:hover {
-  background: #4d3f3a;
+  background: #000;
 }
 .btn-right:hover {
-  background: #4d3f3a;
+  background: #000;
 }
 
 /* search */
